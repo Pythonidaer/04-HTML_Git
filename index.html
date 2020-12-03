@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activity 1: Basic HTML Bio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Site Header -->
@@ -12,15 +13,15 @@
         <h1>Student Bio</h1>
     </header>
 
-    <div>
+    <div class="container">
 
         <!-- Section 1: Bio -->
-        <section>
+        <section id="main-bio">
             <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed.) -->
             <h2>Jonathan Hammond</h2>
 
             <!-- Image with link -->
-            <img style="width: 200px; height: 200px;" src="images/selfie.png" alt="A headshot of Jonathan Hammond, who is truly a beautiful creature">
+            <img id="bio-image" style="width: 200px; height: 200px;" src="images/selfie.png" alt="A headshot of Jonathan Hammond, who is truly a beautiful creature">
 
             <!-- Paragraph with bio information -->
             <p>My name is Jonathan. I love watching MMA fights. I want to legalize cannabis by learning data science. It's a long story, but this is a basic homework activity.</p>
@@ -30,7 +31,7 @@
         </section>
 
         <!-- Section 2: Contact Info -->
-        <section>
+        <section id="contact-info">
 
             <!-- h2: Tier-2 Headline -->
             <h2>Contact Info</h2>
